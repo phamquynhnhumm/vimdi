@@ -31,6 +31,10 @@ call plug#begin()
   Plug 'Vimjas/vim-python-pep8-indent'
   Plug 'matze/vim-move'
   Plug 'junegunn/limelight.vim'
+
+  " 24/10/2000
+  Plug 'itchyny/calendar.vim'
+  Plug 'wfxr/minimap.vim'
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
@@ -40,4 +44,6 @@ source ~/vimdi/plugins/vim-airline.vim
 source ~/vimdi/plugins/vim-code-dark.vim
 source ~/vimdi/plugins/vim-markdown.vim
 source ~/vimdi/plugins/limelight.vim
+source ~/vimdi/plugins/calendar.vim
+source ~/vimdi/plugins/minimap.vim
 
