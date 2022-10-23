@@ -39,4 +39,5 @@ source ~/vimdi/plugins/nerdtree.vim
 source ~/vimdi/plugins/vim-airline.vim
 source ~/vimdi/plugins/vim-code-dark.vim
 source ~/vimdi/plugins/vim-markdown.vim
+source ~/vimdi/plugins/limelight.vim
 
