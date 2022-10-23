@@ -35,6 +35,7 @@ call plug#begin()
   " 24/10/2000
   Plug 'itchyny/calendar.vim'
   Plug 'wfxr/minimap.vim'
+  Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
@@ -46,4 +47,5 @@ source ~/vimdi/plugins/vim-markdown.vim
 source ~/vimdi/plugins/limelight.vim
 source ~/vimdi/plugins/calendar.vim
 source ~/vimdi/plugins/minimap.vim
+source ~/vimdi/plugins/vim-easymotion.vim
 
