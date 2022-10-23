@@ -1,5 +1,5 @@
-source vimdi/customs/main.vim
-source vimdi/customs/java.vim
+source ~/vimdi/customs/main.vim
+source ~/vimdi/customs/java.vim
 " https://thoughtbot.com/blog/modern-typescript-and-react-development-in-vim
 call plug#begin()
   Plug 'tomasiser/vim-code-dark'
@@ -33,10 +33,10 @@ call plug#begin()
   Plug 'junegunn/limelight.vim'
 call plug#end()
 
-source vimdi/plugins/coc.nvim.vim
-source vimdi/plugins/fzf.vim.vim
-source vimdi/plugins/nerdtree.vim
-source vimdi/plugins/vim-airline.vim
-source vimdi/plugins/vim-code-dark.vim
-source vimdi/plugins/vim-markdown.vim
+source ~/vimdi/plugins/coc.nvim.vim
+source ~/vimdi/plugins/fzf.vim.vim
+source ~/vimdi/plugins/nerdtree.vim
+source ~/vimdi/plugins/vim-airline.vim
+source ~/vimdi/plugins/vim-code-dark.vim
+source ~/vimdi/plugins/vim-markdown.vim
 
