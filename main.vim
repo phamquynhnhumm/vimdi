@@ -33,10 +33,13 @@ call plug#begin()
   Plug 'matze/vim-move'
   Plug 'junegunn/limelight.vim'
 
-  " 24/10/2000
+  " 24/10/2022
   Plug 'itchyny/calendar.vim'
   Plug 'wfxr/minimap.vim'
   Plug 'easymotion/vim-easymotion'
+
+  " 19/11/2022
+  Plug 'ap/vim-css-color'
 
   " 20/11/2022: Vim Script
   Plug 'nvim-lua/plenary.nvim'
