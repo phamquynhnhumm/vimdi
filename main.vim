@@ -20,6 +20,7 @@ call plug#begin()
 
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'  
+
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
@@ -36,6 +37,11 @@ call plug#begin()
   Plug 'itchyny/calendar.vim'
   Plug 'wfxr/minimap.vim'
   Plug 'easymotion/vim-easymotion'
+
+  " 20/11/2022: Vim Script
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'folke/todo-comments.nvim'
+
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
