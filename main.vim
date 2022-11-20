@@ -32,19 +32,23 @@ call plug#begin()
   Plug 'Vimjas/vim-python-pep8-indent'
   Plug 'matze/vim-move'
   Plug 'junegunn/limelight.vim'
-
+  "
   " 24/10/2022
   Plug 'itchyny/calendar.vim'
   Plug 'wfxr/minimap.vim'
   Plug 'easymotion/vim-easymotion'
-
+  "
   " 19/11/2022
   Plug 'ap/vim-css-color'
-
-  " 20/11/2022: Vim Script
+  "
+  " 20/11/2022
+  "
+  " Vim Script
   Plug 'nvim-lua/plenary.nvim'
   Plug 'folke/todo-comments.nvim'
-
+  " vim-plug
+  Plug 'lervag/vimtex'
+  "
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
