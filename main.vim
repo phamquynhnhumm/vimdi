@@ -24,8 +24,6 @@ call plug#begin()
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
-	Plug 'godlygeek/tabular'
-  Plug 'preservim/vim-markdown'
 	Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'terryma/vim-multiple-cursors'
@@ -42,13 +40,12 @@ call plug#begin()
   Plug 'ap/vim-css-color'
   "
   " 20/11/2022
-  "
-  " Vim Script
   Plug 'nvim-lua/plenary.nvim'
   Plug 'folke/todo-comments.nvim'
-  " vim-plug
   Plug 'lervag/vimtex'
-  "
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+	Plug 'godlygeek/tabular'
+  Plug 'preservim/vim-markdown'
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
@@ -61,4 +58,4 @@ source ~/vimdi/plugins/limelight.vim
 source ~/vimdi/plugins/calendar.vim
 source ~/vimdi/plugins/minimap.vim
 source ~/vimdi/plugins/vim-easymotion.vim
-
+source ~/vimdi/plugins/markdown-preview.nvim.vim
