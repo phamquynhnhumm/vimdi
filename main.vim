@@ -33,7 +33,7 @@ call plug#begin()
   "
   " 24/10/2022
   Plug 'itchyny/calendar.vim'
-  Plug 'wfxr/minimap.vim'
+  " Plug 'wfxr/minimap.vim'
   Plug 'easymotion/vim-easymotion'
   "
   " 19/11/2022
@@ -56,6 +56,6 @@ source ~/vimdi/plugins/vim-code-dark.vim
 source ~/vimdi/plugins/vim-markdown.vim
 source ~/vimdi/plugins/limelight.vim
 source ~/vimdi/plugins/calendar.vim
-source ~/vimdi/plugins/minimap.vim
+" source ~/vimdi/plugins/minimap.vim
 source ~/vimdi/plugins/vim-easymotion.vim
 source ~/vimdi/plugins/markdown-preview.nvim.vim
