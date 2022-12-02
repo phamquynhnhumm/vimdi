@@ -26,7 +26,8 @@ call plug#begin()
 
 	Plug 'preservim/nerdtree' |
             \ Plug 'Xuyuanp/nerdtree-git-plugin'
-  Plug 'terryma/vim-multiple-cursors'
+  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
   Plug 'Vimjas/vim-python-pep8-indent'
   Plug 'matze/vim-move'
   Plug 'junegunn/limelight.vim'
@@ -46,6 +47,9 @@ call plug#begin()
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 	Plug 'godlygeek/tabular'
   Plug 'preservim/vim-markdown'
+  " 27/11/2022
+  Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+
 call plug#end()
 
 source ~/vimdi/plugins/coc.nvim.vim
